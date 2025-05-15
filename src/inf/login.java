@@ -48,14 +48,15 @@ public class login extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("Username");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, -1, 30));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setText("Password");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 210, -1, -1));
 
-        unamebox.setBackground(new java.awt.Color(102, 102, 102));
+        unamebox.setBackground(new java.awt.Color(204, 204, 204));
         unamebox.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        unamebox.setToolTipText("Enter Your Username");
         unamebox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 unameboxActionPerformed(evt);
@@ -63,8 +64,9 @@ public class login extends javax.swing.JFrame {
         });
         jPanel1.add(unamebox, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 160, 240, 30));
 
-        pwordbox.setBackground(new java.awt.Color(102, 102, 102));
+        pwordbox.setBackground(new java.awt.Color(204, 204, 204));
         pwordbox.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        pwordbox.setToolTipText("Enter Your Password");
         pwordbox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pwordboxActionPerformed(evt);
